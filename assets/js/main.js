@@ -424,3 +424,7 @@
 
 
 })(jQuery, window)
+
+  document.querySelector('.logo').addEventListener('click', () => {
+    document.body.classList.toggle('white-version');
+  });
